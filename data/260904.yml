@@ -7,7 +7,7 @@ about:
   head: b06b4a2
   archived: false
   latestVersion: v2.8.0
-  collectedAt: 2026-09-04T19:57:05Z
+  collectedAt: 2026-09-04T20:46:35Z
 timeline:
   created: 2013-03-28
   lastCommit: 2026-09-03
@@ -86,6 +86,74 @@ total:
   openIssue: 27
   commit: 1816
 ---
+path: /home/runner/.x-repo/github.com/cisco/libsrtp
+collectedAt: 2026-09-04T20:46:37Z
+loc:
+  C:
+    code: 22238
+    comments: 6675
+    blanks: 4207
+    files: 52
+  CHeader:
+    code: 2271
+    comments: 3131
+    blanks: 757
+    files: 37
+  Css:
+    code: 1216
+    comments: 22
+    blanks: 241
+    files: 1
+  CMake:
+    code: 673
+    comments: 26
+    blanks: 106
+    files: 9
+  Autoconf:
+    code: 648
+    comments: 1659
+    blanks: 660
+    files: 7
+  Sh:
+    code: 597
+    comments: 218
+    blanks: 186
+    files: 5
+  Meson:
+    code: 448
+    comments: 25
+    blanks: 74
+    files: 7
+  ModuleDef:
+    code: 70
+    comments: 0
+    blanks: 0
+    files: 1
+  Json:
+    code: 30
+    comments: 0
+    blanks: 0
+    files: 1
+  Cpp:
+    code: 13
+    comments: 0
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 482
+    blanks: 145
+    files: 2
+  Text:
+    code: 0
+    comments: 307
+    blanks: 17
+    files: 2
+total:
+  code: 28212
+  comments: 12545
+  blanks: 6397
+  files: 125
 ---
 date: "2026-08-24"
 repo:
