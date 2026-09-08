@@ -5,7 +5,7 @@ about:
   head: b06b4a2
   archived: false
   latestVersion: "v2.8.0"
-  collectedAt: 2026-09-08T02:19:59Z
+  collectedAt: 2026-09-08T05:04:32Z
 timeline:
   created: 2013-03-28
   lastCommit: 2026-09-03
@@ -85,7 +85,7 @@ total:
   commit: 1816
 ---
 path: /home/runner/.x-repo/github.com/cisco/libsrtp
-collectedAt: 2026-09-08T02:20:02Z
+collectedAt: 2026-09-08T05:04:35Z
 loc:
   C:
     code: 22238
