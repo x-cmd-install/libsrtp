@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.8.0"
   latestRelease: "v2.8.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:24:47Z
+  collectedAt: 2026-09-10T20:44:59Z
 timeline:
   created: 2013-03-28
   lastCommit: 2026-09-10
@@ -61,35 +61,35 @@ recent:
     release: 1
     mergedPR: 13
     openPR: 0
-    closedIssue: 3
-    openIssue: 4
+    closedIssue: 4
+    openIssue: 3
     commit: 38
   last360d:
     since: 2025-09-15
     release: 1
     mergedPR: 39
     openPR: 0
-    closedIssue: 7
-    openIssue: 8
+    closedIssue: 8
+    openIssue: 7
     commit: 66
   last720d:
     since: 2024-09-20
     release: 2
     mergedPR: 63
     openPR: 2
-    closedIssue: 18
-    openIssue: 13
+    closedIssue: 19
+    openIssue: 12
     commit: 151
 total:
   release: 17
   mergedPR: 436
   openPR: 4
-  closedIssue: 275
-  openIssue: 27
+  closedIssue: 276
+  openIssue: 26
   commit: 1821
 ---
 path: /home/runner/.x-repo/github.com/cisco/libsrtp
-collectedAt: 2026-09-10T05:24:53Z
+collectedAt: 2026-09-10T20:45:01Z
 loc:
   C:
     code: 22272
