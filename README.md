@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 3 | 0 | 1 | 0 | 5 |
-| last60d | 2026-07-22 | 0 | 5 | 0 | 2 | 0 | 9 |
-| 90d | 2026-06-22 | 0 | 7 | 0 | 2 | 1 | 14 |
-| last180d | 2026-03-24 | 0 | 13 | 0 | 3 | 3 | 38 |
-| 360d | 2025-09-25 | 1 | 38 | 0 | 8 | 6 | 65 |
-| last720d | 2024-09-30 | 2 | 62 | 2 | 19 | 12 | 151 |
+| 30d | 2026-08-22 | 0 | 3 | 0 | 1 | 0 | 5 |
+| last60d | 2026-07-23 | 0 | 5 | 0 | 2 | 0 | 9 |
+| 90d | 2026-06-23 | 0 | 7 | 0 | 2 | 1 | 13 |
+| last180d | 2026-03-25 | 0 | 13 | 0 | 3 | 3 | 38 |
+| 360d | 2025-09-26 | 1 | 38 | 0 | 8 | 6 | 65 |
+| last720d | 2024-10-01 | 2 | 62 | 2 | 19 | 12 | 149 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:28:47Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T05:33:32Z._
