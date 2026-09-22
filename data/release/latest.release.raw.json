@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/cisco/libsrtp/releases/296982906",
-  "assets_url": "https://api.github.com/repos/cisco/libsrtp/releases/296982906/assets",
-  "upload_url": "https://uploads.github.com/repos/cisco/libsrtp/releases/296982906/assets{?name,label}",
-  "html_url": "https://github.com/cisco/libsrtp/releases/tag/v2.8.0",
-  "id": 296982906,
+  "url": "https://api.github.com/repos/cisco/libsrtp/releases/392750887",
+  "assets_url": "https://api.github.com/repos/cisco/libsrtp/releases/392750887/assets",
+  "upload_url": "https://uploads.github.com/repos/cisco/libsrtp/releases/392750887/assets{?name,label}",
+  "html_url": "https://github.com/cisco/libsrtp/releases/tag/v2.8.1",
+  "id": 392750887,
   "author": {
     "login": "pabuhler",
     "id": 15016732,
@@ -25,20 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAIqpv84Rs5l6",
-  "tag_name": "v2.8.0",
-  "target_commitish": "2_x_dev",
-  "name": "libSRTP v2.8.0",
+  "node_id": "RE_kwDOAIqpv84XaOcn",
+  "tag_name": "v2.8.1",
+  "target_commitish": "main",
+  "name": "v2.8.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-03-14T09:49:34Z",
-  "updated_at": "2026-03-14T10:00:30Z",
-  "published_at": "2026-03-14T09:59:22Z",
+  "created_at": "2026-09-21T06:50:45Z",
+  "updated_at": "2026-09-21T07:05:19Z",
+  "published_at": "2026-09-21T07:05:19Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/cisco/libsrtp/tarball/v2.8.0",
-  "zipball_url": "https://api.github.com/repos/cisco/libsrtp/zipball/v2.8.0",
-  "body": "## What's Changed\r\n* Properly support null crypto and null auth scenario in https://github.com/cisco/libsrtp/pull/760\r\n* Fix AES 192 kdf by in https://github.com/cisco/libsrtp/pull/770\r\n* backport cryptex to v2 branch in https://github.com/cisco/libsrtp/pull/778\r\n\r\n\r\n**Full Changelog**: https://github.com/cisco/libsrtp/compare/v2.7...v2.8.0"
+  "tarball_url": "https://api.github.com/repos/cisco/libsrtp/tarball/v2.8.1",
+  "zipball_url": "https://api.github.com/repos/cisco/libsrtp/zipball/v2.8.1",
+  "body": "## What's Changed\r\n* Fix printf format specifiers which cause issues on Windows by @fippo in https://github.com/cisco/libsrtp/pull/806\r\n* Add API to require cryptex by @fippo in https://github.com/cisco/libsrtp/pull/805\r\n* cryptex and enc xtn hdr is not a valid combination by @fippo in https://github.com/cisco/libsrtp/pull/811\r\n\r\n\r\n**Full Changelog**: https://github.com/cisco/libsrtp/compare/v2.8.0...v2.8.1",
+  "mentions_count": 1
 }
