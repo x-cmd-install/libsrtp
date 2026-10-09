@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 436 · **Open PRs**: 4 · **Closed issues**: 276 · **Open issues**: 27 · **Commits**: 1821
+- **Releases**: 18 · **Merged PRs**: 436 · **Open PRs**: 5 · **Closed issues**: 276 · **Open issues**: 27 · **Commits**: 1821
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 1 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-08-09 | 1 | 4 | 0 | 1 | 1 | 7 |
-| 90d | 2026-07-10 | 1 | 5 | 0 | 2 | 2 | 9 |
-| last180d | 2026-04-11 | 1 | 12 | 0 | 3 | 4 | 38 |
-| 360d | 2025-10-13 | 2 | 35 | 0 | 8 | 7 | 60 |
-| last720d | 2024-10-18 | 3 | 61 | 2 | 19 | 13 | 148 |
+| 30d | 2026-09-09 | 1 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-08-10 | 1 | 3 | 1 | 1 | 1 | 7 |
+| 90d | 2026-07-11 | 1 | 5 | 1 | 2 | 2 | 9 |
+| last180d | 2026-04-12 | 1 | 12 | 1 | 3 | 4 | 38 |
+| 360d | 2025-10-14 | 2 | 35 | 1 | 8 | 7 | 60 |
+| last720d | 2024-10-19 | 3 | 61 | 3 | 19 | 13 | 148 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T06:34:52Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T06:52:33Z._
