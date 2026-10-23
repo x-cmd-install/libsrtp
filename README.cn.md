@@ -56,12 +56,30 @@ x install libsrtp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 4 | 3 | 1 | 0 | 1 |
-| last60d | 2026-08-23 | 1 | 7 | 3 | 2 | 0 | 6 |
-| 90d | 2026-07-24 | 1 | 9 | 3 | 3 | 0 | 10 |
-| last180d | 2026-04-25 | 1 | 15 | 3 | 4 | 2 | 31 |
-| 360d | 2025-10-27 | 2 | 39 | 3 | 9 | 6 | 61 |
-| last720d | 2024-11-01 | 3 | 65 | 5 | 20 | 12 | 150 |
+| 30d | 2026-09-23 | 0 | 4 | 3 | 1 | 0 | 1 |
+| last60d | 2026-08-24 | 1 | 7 | 3 | 2 | 0 | 6 |
+| 90d | 2026-07-25 | 1 | 9 | 3 | 3 | 0 | 10 |
+| last180d | 2026-04-26 | 1 | 15 | 3 | 4 | 2 | 31 |
+| 360d | 2025-10-28 | 2 | 39 | 3 | 9 | 6 | 61 |
+| last720d | 2024-11-02 | 3 | 65 | 5 | 20 | 12 | 150 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/libsrtp) 上共有 **187** 个发行版报告此项目。**36** 个 ✅ 已是最新上游版本，**131** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.8.0` | ⚠️ outdated |
+| Debian 14 | `2.8.0` | ⚠️ outdated |
+| Debian 13 | `2.7.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.7.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.5.0` | ⚠️ outdated |
+| Arch | `2.8.1` | ✅ latest |
+| Fedora rawhide | `2.8.1` | ✅ latest |
+| Nix unstable | `2.8.1` | ✅ latest |
+| Void | `2.8.1` | ✅ latest |
+| Alpine edge | `2.8.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.8.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -72,4 +90,4 @@ libsrtp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:13:55Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:18:49Z._
