@@ -14,11 +14,11 @@ x install libsrtp
 
 ## Code insight
 
-Total: **28,317** lines of code across **106** files in the top 5 languages.
+Total: **28,327** lines of code across **106** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 22,351 | 6,696 | 4,231 | 52 |
+| C | 22,361 | 6,696 | 4,233 | 52 |
 | CHeader | 2,271 | 3,131 | 757 | 37 |
 | Css | 1,216 | 22 | 241 | 1 |
 | CMake | 673 | 26 | 106 | 9 |
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.8.1` (2026-09-21)
-- **Last commit**: 2026-10-09
+- **Last commit**: 2026-10-26
 
 ## Popularity
 
@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 440 · **Open PRs**: 7 · **Closed issues**: 277 · **Open issues**: 26 · **Commits**: 1823
+- **Releases**: 18 · **Merged PRs**: 441 · **Open PRs**: 6 · **Closed issues**: 277 · **Open issues**: 26 · **Commits**: 1825
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 4 | 3 | 1 | 0 | 1 |
-| last60d | 2026-08-27 | 1 | 7 | 3 | 2 | 0 | 5 |
-| 90d | 2026-07-28 | 1 | 9 | 3 | 3 | 0 | 9 |
-| last180d | 2026-04-29 | 1 | 14 | 3 | 4 | 2 | 26 |
-| 360d | 2025-10-31 | 2 | 39 | 3 | 9 | 6 | 61 |
-| last720d | 2024-11-05 | 3 | 65 | 5 | 20 | 12 | 150 |
+| 30d | 2026-09-27 | 0 | 5 | 2 | 1 | 0 | 2 |
+| last60d | 2026-08-28 | 1 | 8 | 2 | 2 | 0 | 6 |
+| 90d | 2026-07-29 | 1 | 10 | 2 | 3 | 0 | 10 |
+| last180d | 2026-04-30 | 1 | 15 | 2 | 4 | 2 | 27 |
+| 360d | 2025-11-01 | 2 | 40 | 2 | 9 | 6 | 62 |
+| last720d | 2024-11-06 | 3 | 66 | 4 | 20 | 12 | 152 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:12:22Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:42:56Z._
