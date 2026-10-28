@@ -26,7 +26,7 @@ Total: **28,327** lines of code across **106** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.2 / 10**
+Overall score: **5.3 / 10**
 
 Lowest-scoring checks:
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,401 · **Forks**: 527 · **Open issues**: 303 · **Contributors**: 89
+- **Stars**: 1,401 · **Forks**: 526 · **Open issues**: 303 · **Contributors**: 89
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 5 | 2 | 1 | 0 | 2 |
-| last60d | 2026-08-28 | 1 | 8 | 2 | 2 | 0 | 6 |
-| 90d | 2026-07-29 | 1 | 10 | 2 | 3 | 0 | 10 |
-| last180d | 2026-04-30 | 1 | 15 | 2 | 4 | 2 | 27 |
-| 360d | 2025-11-01 | 2 | 40 | 2 | 9 | 6 | 62 |
-| last720d | 2024-11-06 | 3 | 66 | 4 | 20 | 12 | 152 |
+| 30d | 2026-09-28 | 0 | 5 | 2 | 1 | 0 | 2 |
+| last60d | 2026-08-29 | 1 | 8 | 2 | 2 | 0 | 6 |
+| 90d | 2026-07-30 | 1 | 10 | 2 | 3 | 0 | 10 |
+| last180d | 2026-05-01 | 1 | 15 | 2 | 4 | 2 | 27 |
+| 360d | 2025-11-02 | 2 | 40 | 2 | 9 | 6 | 62 |
+| last720d | 2024-11-07 | 3 | 66 | 4 | 20 | 12 | 152 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:42:56Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:04:50Z._
