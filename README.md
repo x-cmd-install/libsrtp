@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,401 · **Forks**: 526 · **Open issues**: 303 · **Contributors**: 89
+- **Stars**: 1,401 · **Forks**: 527 · **Open issues**: 303 · **Contributors**: 89
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 5 | 2 | 1 | 0 | 2 |
-| last60d | 2026-08-30 | 1 | 8 | 2 | 2 | 0 | 6 |
-| 90d | 2026-07-31 | 1 | 10 | 2 | 2 | 0 | 10 |
-| last180d | 2026-05-02 | 1 | 15 | 2 | 4 | 2 | 27 |
-| 360d | 2025-11-03 | 2 | 40 | 2 | 9 | 6 | 62 |
-| last720d | 2024-11-08 | 3 | 66 | 4 | 20 | 12 | 152 |
+| 30d | 2026-09-30 | 0 | 5 | 2 | 1 | 0 | 2 |
+| last60d | 2026-08-31 | 1 | 8 | 2 | 2 | 0 | 6 |
+| 90d | 2026-08-01 | 1 | 9 | 2 | 2 | 0 | 10 |
+| last180d | 2026-05-03 | 1 | 15 | 2 | 4 | 2 | 27 |
+| 360d | 2025-11-04 | 2 | 40 | 2 | 9 | 6 | 62 |
+| last720d | 2024-11-09 | 3 | 65 | 4 | 20 | 12 | 152 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:19:53Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:11:04Z._
