@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 8 | 1 | 1 | 0 | 6 |
-| last60d | 2026-09-06 | 1 | 8 | 1 | 1 | 0 | 7 |
-| 90d | 2026-08-07 | 1 | 12 | 1 | 2 | 0 | 15 |
-| last180d | 2026-05-09 | 1 | 17 | 1 | 3 | 2 | 25 |
-| 360d | 2025-11-10 | 2 | 43 | 1 | 8 | 6 | 66 |
-| last720d | 2024-11-15 | 3 | 69 | 2 | 20 | 12 | 153 |
+| 30d | 2026-10-07 | 0 | 8 | 1 | 0 | 0 | 6 |
+| last60d | 2026-09-07 | 1 | 8 | 1 | 1 | 0 | 7 |
+| 90d | 2026-08-08 | 1 | 12 | 1 | 2 | 0 | 15 |
+| last180d | 2026-05-10 | 1 | 17 | 1 | 3 | 2 | 25 |
+| 360d | 2025-11-11 | 2 | 43 | 1 | 8 | 6 | 66 |
+| last720d | 2024-11-16 | 3 | 69 | 2 | 19 | 12 | 153 |
 
 ## Distribution status
 
-Reported by **188** distros on [repology.org](https://repology.org/project/libsrtp). **35** are ✅ on the latest upstream release, **133** are ⚠️ on an older version.
+Reported by **188** distros on [repology.org](https://repology.org/project/libsrtp). **36** are ✅ on the latest upstream release, **132** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:20:09Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:14:51Z._
