@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,404 · **Forks**: 529 · **Open issues**: 303 · **Contributors**: 92
+- **Stars**: 1,404 · **Forks**: 530 · **Open issues**: 303 · **Contributors**: 92
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 446 · **Open PRs**: 4 · **Closed issues**: 277 · **Open issues**: 26 · **Commits**: 1837
+- **Releases**: 18 · **Merged PRs**: 446 · **Open PRs**: 6 · **Closed issues**: 283 · **Open issues**: 20 · **Commits**: 1837
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 8 | 1 | 0 | 0 | 6 |
-| last60d | 2026-09-10 | 1 | 9 | 1 | 1 | 0 | 8 |
-| 90d | 2026-08-11 | 1 | 12 | 1 | 2 | 0 | 14 |
-| last180d | 2026-05-13 | 1 | 18 | 1 | 3 | 2 | 22 |
-| 360d | 2025-11-14 | 2 | 43 | 1 | 7 | 6 | 64 |
-| last720d | 2024-11-19 | 3 | 70 | 2 | 19 | 12 | 155 |
+| 30d | 2026-10-11 | 0 | 8 | 3 | 0 | 0 | 6 |
+| last60d | 2026-09-11 | 1 | 9 | 3 | 1 | 0 | 8 |
+| 90d | 2026-08-12 | 1 | 12 | 3 | 2 | 0 | 14 |
+| last180d | 2026-05-14 | 1 | 18 | 3 | 4 | 1 | 22 |
+| 360d | 2025-11-15 | 2 | 43 | 3 | 11 | 2 | 64 |
+| last720d | 2024-11-20 | 3 | 70 | 4 | 23 | 7 | 155 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:04:24Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:52:42Z._
