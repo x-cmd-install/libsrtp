@@ -14,14 +14,14 @@ x install libsrtp
 
 ## Code insight
 
-Total: **28,521** lines of code across **106** files in the top 5 languages.
+Total: **28,680** lines of code across **108** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 22,551 | 6,715 | 4,277 | 52 |
-| CHeader | 2,271 | 3,131 | 757 | 37 |
+| C | 22,683 | 6,763 | 4,311 | 53 |
+| CHeader | 2,286 | 3,205 | 767 | 38 |
 | Css | 1,216 | 22 | 241 | 1 |
-| CMake | 677 | 26 | 107 | 9 |
+| CMake | 683 | 26 | 107 | 9 |
 | Autoconf | 648 | 1,659 | 660 | 7 |
 
 ## OpenSSF Scorecard
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.8.1` (2026-09-21)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-12
 
 ## Popularity
 
@@ -50,22 +50,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 446 · **Open PRs**: 8 · **Closed issues**: 283 · **Open issues**: 20 · **Commits**: 1837
+- **Releases**: 18 · **Merged PRs**: 450 · **Open PRs**: 5 · **Closed issues**: 288 · **Open issues**: 15 · **Commits**: 1846
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 7 | 5 | 0 | 0 | 6 |
-| last60d | 2026-09-12 | 1 | 9 | 5 | 1 | 0 | 8 |
-| 90d | 2026-08-13 | 1 | 12 | 5 | 2 | 0 | 14 |
-| last180d | 2026-05-15 | 1 | 18 | 5 | 4 | 1 | 22 |
-| 360d | 2025-11-16 | 2 | 43 | 5 | 11 | 2 | 64 |
-| last720d | 2024-11-21 | 3 | 70 | 6 | 23 | 7 | 155 |
+| 30d | 2026-10-13 | 0 | 11 | 2 | 0 | 0 | 11 |
+| last60d | 2026-09-13 | 1 | 13 | 2 | 1 | 0 | 13 |
+| 90d | 2026-08-14 | 1 | 16 | 2 | 2 | 0 | 19 |
+| last180d | 2026-05-16 | 1 | 22 | 2 | 4 | 1 | 27 |
+| 360d | 2025-11-17 | 2 | 47 | 2 | 10 | 2 | 69 |
+| last720d | 2024-11-22 | 3 | 74 | 3 | 24 | 6 | 164 |
 
 ## Distribution status
 
-Reported by **188** distros on [repology.org](https://repology.org/project/libsrtp). **40** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
+Reported by **187** distros on [repology.org](https://repology.org/project/libsrtp). **40** are ✅ on the latest upstream release, **127** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:56:28Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:57:38Z._
