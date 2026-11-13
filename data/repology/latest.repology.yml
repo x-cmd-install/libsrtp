@@ -1,57 +1,34 @@
-- repo: eurolinux_9
-  subrepo: appstream
+- repo: conancenter
   srcname: libsrtp
-  binnames:
-    - libsrtp
-    - libsrtp-devel
-    - libsrtp-tools
-    - libsrtp-debuginfo
-    - libsrtp-debugsource
+  visiblename: libsrtp
+  version: 2.4.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: libsrtp
   visiblename: libsrtp
   version: 2.3.0
-  origversion: 2.3.0-8.el9
-  status: outdated
-  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: baseos
-  srcname: libsrtp
-  binnames:
-    - libsrtp
-    - libsrtp-devel
-    - libsrtp-tools
-    - libsrtp-debuginfo
-    - libsrtp-debugsource
-  visiblename: libsrtp
-  version: 2.3.0
-  origversion: 2.3.0-7.el9
-  status: outdated
-  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-- repo: raspbian_oldstable
+  origversion: null
+  status: legacy
+- repo: pardus_21
   subrepo: main
   srcname: libsrtp2
   binnames:
     - libsrtp2-dev
     - libsrtp2-1
+    - libsrtp2-1-dbg
     - libsrtp2-docs
   visiblename: libsrtp2
-  version: 2.5.0
-  origversion: 2.5.0-3
+  version: 2.3.0
+  origversion: 2.3.0-5
   status: outdated
   maintainers:
     - pkg-voip-maintainers@lists.alioth.debian.org
     - dr@jones.dk
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: libsrtp2
   binnames:
     - libsrtp2-dev
@@ -66,22 +43,31 @@
     - dr@jones.dk
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: libsrtp2
   binnames:
     - libsrtp2-dev
     - libsrtp2-1
     - libsrtp2-docs
   visiblename: libsrtp2
-  version: 2.8.0
-  origversion: 2.8.0+ds-1
+  version: 2.7.0
+  origversion: 2.7.0-3
   status: outdated
   maintainers:
     - pkg-voip-maintainers@lists.alioth.debian.org
     - dr@jones.dk
   categories:
     - misc
+- repo: pclinuxos
+  srcname: libsrtp
+  visiblename: libsrtp
+  version: 2.7.0
+  origversion: 2.7.0-1pclos2025
+  status: outdated
+  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
+  categories:
+    - System/Libraries
 - repo: crux_37
   subrepo: contrib
   srcname: libsrtp
@@ -92,23 +78,44 @@
   summary: Secure Realtime transport protocol library
   maintainers:
     - tbier@posteo.de
-- repo: stalix
-  srcname: lib/srtp/2
-  binname: lib/srtp/2
-  visiblename: lib/srtp/2
+- repo: crux_38
+  subrepo: contrib
+  srcname: libsrtp
+  visiblename: libsrtp
   version: 2.8.1
   origversion: null
   status: newest
+  summary: Secure Realtime transport protocol library
   maintainers:
-    - anton@samokhvalov.xyz
+    - tbier@posteo.de
+- repo: openkylin_1_0
+  subrepo: yangtze-proposed/main
+  srcname: libsrtp2
+  binnames:
+    - libsrtp2-dev
+    - libsrtp2-1
+    - libsrtp2-1-dbg
+    - libsrtp2-docs
+  visiblename: libsrtp2
+  version: 2.4.2
+  origversion: 2.4.2-3ok1
+  status: outdated
+  maintainers:
+    - kde@lists.openkylin.top
+    - nobelxyz@163.com
   categories:
-    - lib
-- repo: conancenter
+    - libs
+- repo: chimera
+  subrepo: main
   srcname: libsrtp
-  visiblename: libsrtp
-  version: 2.5.0
-  origversion: null
-  status: legacy
+  binname: libsrtp-doc
+  visiblename: libsrtp-doc
+  version: 2.8.1
+  origversion: 2.8.1-r0
+  status: newest
+  summary: Library for Secure Real-Time Transport Protocol (documentation)
+  licenses:
+    - BSD-3-Clause
 - repo: adelie_current
   subrepo: user
   srcname: libsrtp
@@ -148,12 +155,6 @@
     - me@zv.io
   licenses:
     - BSD-3-Clause
-- repo: conancenter
-  srcname: libsrtp
-  visiblename: libsrtp
-  version: 2.4.2
-  origversion: null
-  status: legacy
 - repo: aerynos
   srcname: libsrtp
   visiblename: libsrtp
@@ -236,220 +237,226 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-3-Clause
-- repo: alpine_3_18
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.5.0
-  origversion: 2.5.0-r1
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_18
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.5.0
-  origversion: 2.5.0-r1
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.5.0
-  origversion: 2.5.0-r1
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.5.0
-  origversion: 2.5.0-r1
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.5.0
-  origversion: 2.5.0-r1
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.5.0
-  origversion: 2.5.0-r1
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.6.0
-  origversion: 2.6.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.6.0
-  origversion: 2.6.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.6.0
-  origversion: 2.6.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.6.0
-  origversion: 2.6.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.7.0
-  origversion: 2.7.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.7.0
-  origversion: 2.7.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.7.0
-  origversion: 2.7.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.7.0
-  origversion: 2.7.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp
-  visiblename: libsrtp
-  version: 2.8.0
-  origversion: 2.8.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-dev
-  visiblename: libsrtp-dev
-  version: 2.8.0
-  origversion: 2.8.0-r0
-  status: outdated
-  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
 - repo: conancenter
   srcname: libsrtp
   visiblename: libsrtp
-  version: 2.4.0
+  version: 2.6.0
+  origversion: null
+  status: outdated
+- repo: conancenter
+  srcname: libsrtp
+  visiblename: libsrtp
+  version: 2.5.0
   origversion: null
   status: legacy
+- repo: alpine_3_18
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.5.0
+  origversion: 2.5.0-r1
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_18
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.5.0
+  origversion: 2.5.0-r1
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.5.0
+  origversion: 2.5.0-r1
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.5.0
+  origversion: 2.5.0-r1
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.5.0
+  origversion: 2.5.0-r1
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.5.0
+  origversion: 2.5.0-r1
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.6.0
+  origversion: 2.6.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.6.0
+  origversion: 2.6.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.6.0
+  origversion: 2.6.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.6.0
+  origversion: 2.6.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.7.0
+  origversion: 2.7.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.7.0
+  origversion: 2.7.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.7.0
+  origversion: 2.7.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.7.0
+  origversion: 2.7.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp
+  visiblename: libsrtp
+  version: 2.8.0
+  origversion: 2.8.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: main
+  srcname: libsrtp
+  binname: libsrtp-dev
+  visiblename: libsrtp-dev
+  version: 2.8.0
+  origversion: 2.8.0-r0
+  status: outdated
+  summary: implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
 - repo: alt_p11
   srcname: libsrtp
   binnames:
@@ -501,6 +508,12 @@
     - BSD-3-Clause
   categories:
     - System/Libraries
+- repo: conancenter
+  srcname: libsrtp
+  visiblename: libsrtp
+  version: 2.4.2
+  origversion: null
+  status: legacy
 - repo: altsisyphus
   srcname: libsrtp2
   binnames:
@@ -632,12 +645,6 @@
   summary: Library for SRTP (Secure Realtime Transport Protocol)
   licenses:
     - BSD-3-Clause
-- repo: conancenter
-  srcname: libsrtp
-  visiblename: libsrtp
-  version: 2.3.0
-  origversion: null
-  status: legacy
 - repo: artix
   subrepo: world
   srcname: libsrtp
@@ -802,33 +809,6 @@
   summary: Library for Secure Real-Time Transport Protocol (development files) (static libraries)
   licenses:
     - BSD-3-Clause
-- repo: chimera
-  subrepo: main
-  srcname: libsrtp
-  binname: libsrtp-doc
-  visiblename: libsrtp-doc
-  version: 2.8.1
-  origversion: 2.8.1-r0
-  status: newest
-  summary: Library for Secure Real-Time Transport Protocol (documentation)
-  licenses:
-    - BSD-3-Clause
-- repo: conancenter
-  srcname: libsrtp
-  visiblename: libsrtp
-  version: 2.6.0
-  origversion: null
-  status: outdated
-- repo: crux_38
-  subrepo: contrib
-  srcname: libsrtp
-  visiblename: libsrtp
-  version: 2.8.1
-  origversion: null
-  status: newest
-  summary: Secure Realtime transport protocol library
-  maintainers:
-    - tbier@posteo.de
 - repo: cygwin
   srcname: libsrtp
   binname: libsrtp-debuginfo
@@ -1059,6 +1039,42 @@
     - BSD
   categories:
     - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: libsrtp
+  binnames:
+    - libsrtp
+    - libsrtp-devel
+    - libsrtp-tools
+    - libsrtp-debuginfo
+    - libsrtp-debugsource
+  visiblename: libsrtp
+  version: 2.3.0
+  origversion: 2.3.0-8.el9
+  status: outdated
+  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: libsrtp
+  binnames:
+    - libsrtp
+    - libsrtp-devel
+    - libsrtp-tools
+    - libsrtp-debuginfo
+    - libsrtp-debugsource
+  visiblename: libsrtp
+  version: 2.3.0
+  origversion: 2.3.0-7.el9
+  status: outdated
+  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
 - repo: exherbo
   subrepo: net
   srcname: net-libs/libsrtp
@@ -1071,6 +1087,38 @@
     - fallback-mnt-exherbo@repology
   categories:
     - net-libs
+- repo: fedora_39
+  subrepo: updates
+  srcname: libsrtp
+  binnames:
+    - libsrtp
+    - libsrtp-devel
+    - libsrtp-debuginfo
+    - libsrtp-debugsource
+  visiblename: libsrtp
+  version: 2.6.0
+  origversion: 2.6.0-1.fc39
+  status: outdated
+  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: openkylin_2_0
+  subrepo: nile/main
+  srcname: libsrtp2
+  binnames:
+    - libsrtp2-dev
+    - libsrtp2-1
+    - libsrtp2-docs
+  visiblename: libsrtp2
+  version: 2.5.0
+  origversion: 2.5.0-ok1.1
+  status: outdated
+  maintainers:
+    - kde@lists.openkylin.top
+  categories:
+    - libs
 - repo: fedora_39
   subrepo: release
   srcname: libsrtp
@@ -1089,18 +1137,7 @@
     - BSD
   categories:
     - Unspecified
-- repo: stalix_dev
-  srcname: lib/srtp/2
-  binname: lib/srtp/2
-  visiblename: lib/srtp/2
-  version: 2.8.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
-- repo: fedora_39
+- repo: fedora_40
   subrepo: updates
   srcname: libsrtp
   binnames:
@@ -1110,7 +1147,7 @@
     - libsrtp-debugsource
   visiblename: libsrtp
   version: 2.6.0
-  origversion: 2.6.0-1.fc39
+  origversion: 2.6.0-1.fc40
   status: outdated
   summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
   licenses:
@@ -1130,23 +1167,6 @@
   version: 2.3.0
   origversion: 2.3.0-14.fc40
   status: legacy
-  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: updates
-  srcname: libsrtp
-  binnames:
-    - libsrtp
-    - libsrtp-devel
-    - libsrtp-debuginfo
-    - libsrtp-debugsource
-  visiblename: libsrtp
-  version: 2.6.0
-  origversion: 2.6.0-1.fc40
-  status: outdated
   summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
   licenses:
     - BSD-3-Clause
@@ -1395,23 +1415,9 @@
   srcname: net/libsrtp
   binname: libsrtp
   visiblename: libsrtp
-  version: 2.6.0
+  version: 2.8.1
   origversion: null
-  status: outdated
-  summary: Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - alfredh@github
-  licenses:
-    - BSD
-  categories:
-    - net
-- repo: macports
-  srcname: net/libsrtp
-  binname: libsrtp1
-  visiblename: libsrtp1
-  version: 1.6.0
-  origversion: null
-  status: legacy
+  status: newest
   summary: Secure Real-time Transport Protocol (SRTP)
   maintainers:
     - alfredh@github
@@ -1513,23 +1519,23 @@
 - repo: manjaro_unstable
   subrepo: extra
   srcname: libsrtp
-  binname: libsrtp-docs
-  visiblename: libsrtp-docs
-  version: 2.8.1
-  origversion: 1:2.8.1-1
-  status: newest
-  summary: Library for SRTP (Secure Realtime Transport Protocol) (documentation)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: libsrtp
   binname: libsrtp
   visiblename: libsrtp
   version: 2.8.1
   origversion: 1:2.8.1-1
   status: newest
   summary: Library for SRTP (Secure Realtime Transport Protocol)
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: libsrtp
+  binname: libsrtp-docs
+  visiblename: libsrtp-docs
+  version: 2.8.1
+  origversion: 1:2.8.1-1
+  status: newest
+  summary: Library for SRTP (Secure Realtime Transport Protocol) (documentation)
   licenses:
     - BSD-3-Clause
 - repo: msys2_clang64
@@ -1604,6 +1610,17 @@
   summary: Secure RTP (SRTP) Reference Implementation
   maintainers:
     - rtburns@protonmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: libsrtp
+  binname: libsrtp-docs
+  visiblename: libsrtp-docs
+  version: 2.8.1
+  origversion: 1:2.8.1-1
+  status: newest
+  summary: Library for SRTP (Secure Realtime Transport Protocol) (documentation)
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_26_05
@@ -1791,38 +1808,6 @@
     - nobelxyz@163.com
   categories:
     - libs
-- repo: openkylin_1_0
-  subrepo: yangtze-proposed/main
-  srcname: libsrtp2
-  binnames:
-    - libsrtp2-dev
-    - libsrtp2-1
-    - libsrtp2-1-dbg
-    - libsrtp2-docs
-  visiblename: libsrtp2
-  version: 2.4.2
-  origversion: 2.4.2-3ok1
-  status: outdated
-  maintainers:
-    - kde@lists.openkylin.top
-    - nobelxyz@163.com
-  categories:
-    - libs
-- repo: openkylin_2_0
-  subrepo: nile/main
-  srcname: libsrtp2
-  binnames:
-    - libsrtp2-dev
-    - libsrtp2-1
-    - libsrtp2-docs
-  visiblename: libsrtp2
-  version: 2.5.0
-  origversion: 2.5.0-ok1.1
-  status: outdated
-  maintainers:
-    - kde@lists.openkylin.top
-  categories:
-    - libs
 - repo: openkylin_2_0
   subrepo: nile-proposed/main
   srcname: libsrtp2
@@ -1970,16 +1955,6 @@
     - BSD-3-Clause
   categories:
     - Development/Libraries/C and C++
-- repo: starkos
-  subrepo: main
-  srcname: libsrtp
-  visiblename: libsrtp
-  version: 2.8.1
-  origversion: 2.8.1-1
-  status: newest
-  summary: Library for SRTP (Secure Realtime Transport Protocol)
-  maintainers:
-    - starkos@disroot.org
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: libsrtp2
@@ -2032,75 +2007,6 @@
   summary: Library for SRTP (Secure Realtime Transport Protocol)
   licenses:
     - BSD-3-Clause
-- repo: parabola
-  subrepo: extra
-  srcname: libsrtp
-  binname: libsrtp-docs
-  visiblename: libsrtp-docs
-  version: 2.8.1
-  origversion: 1:2.8.1-1
-  status: newest
-  summary: Library for SRTP (Secure Realtime Transport Protocol) (documentation)
-  licenses:
-    - BSD-3-Clause
-- repo: pardus_21
-  subrepo: main
-  srcname: libsrtp2
-  binnames:
-    - libsrtp2-dev
-    - libsrtp2-1
-    - libsrtp2-1-dbg
-    - libsrtp2-docs
-  visiblename: libsrtp2
-  version: 2.3.0
-  origversion: 2.3.0-5
-  status: outdated
-  maintainers:
-    - pkg-voip-maintainers@lists.alioth.debian.org
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: libsrtp2
-  binnames:
-    - libsrtp2-dev
-    - libsrtp2-1
-    - libsrtp2-docs
-  visiblename: libsrtp2
-  version: 2.7.0
-  origversion: 2.7.0-3
-  status: outdated
-  maintainers:
-    - pkg-voip-maintainers@lists.alioth.debian.org
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: libsrtp2
-  binnames:
-    - libsrtp2-dev
-    - libsrtp2-1
-    - libsrtp2-docs
-  visiblename: libsrtp2
-  version: 2.7.0
-  origversion: 2.7.0-3
-  status: outdated
-  maintainers:
-    - pkg-voip-maintainers@lists.alioth.debian.org
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: pclinuxos
-  srcname: libsrtp
-  visiblename: libsrtp
-  version: 2.7.0
-  origversion: 2.7.0-1pclos2025
-  status: outdated
-  summary: An implementation of the Secure Real-time Transport Protocol (SRTP)
-  categories:
-    - System/Libraries
 - repo: pisi_main
   subrepo: main
   srcname: network/library/libsrtp
@@ -2180,6 +2086,54 @@
     - dr@jones.dk
   categories:
     - libs
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: libsrtp2
+  binnames:
+    - libsrtp2-dev
+    - libsrtp2-1
+    - libsrtp2-docs
+  visiblename: libsrtp2
+  version: 2.5.0
+  origversion: 2.5.0-3
+  status: outdated
+  maintainers:
+    - pkg-voip-maintainers@lists.alioth.debian.org
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: libsrtp2
+  binnames:
+    - libsrtp2-dev
+    - libsrtp2-1
+    - libsrtp2-docs
+  visiblename: libsrtp2
+  version: 2.7.0
+  origversion: 2.7.0-3
+  status: outdated
+  maintainers:
+    - pkg-voip-maintainers@lists.alioth.debian.org
+    - dr@jones.dk
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: libsrtp2
+  binnames:
+    - libsrtp2-dev
+    - libsrtp2-1
+    - libsrtp2-docs
+  visiblename: libsrtp2
+  version: 2.8.0
+  origversion: 2.8.0+ds-1
+  status: outdated
+  maintainers:
+    - pkg-voip-maintainers@lists.alioth.debian.org
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: rocky_8
   subrepo: AppStream
   srcname: libsrtp
@@ -2213,23 +2167,6 @@
   categories:
     - Unspecified
 - repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: libsrtp
-  binnames:
-    - lib64srtp1
-    - lib64srtp-devel
-  visiblename: libsrtp
-  version: 1.6.0
-  origversion: 1.6.0-1
-  status: legacy
-  summary: Secure Real-time Transport Protocol (SRTP)
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - GPL
-  categories:
-    - System/Libraries
-- repo: rosa_2019_1
   subrepo: main/release
   srcname: libsrtp2
   binnames:
@@ -2244,6 +2181,23 @@
     - alexander@mezon.ru
   licenses:
     - BSD
+  categories:
+    - System/Libraries
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: libsrtp
+  binnames:
+    - lib64srtp1
+    - lib64srtp-devel
+  visiblename: libsrtp
+  version: 1.6.0
+  origversion: 1.6.0-1
+  status: legacy
+  summary: Secure Real-time Transport Protocol (SRTP)
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - GPL
   categories:
     - System/Libraries
 - repo: rosa_13
@@ -2321,6 +2275,38 @@
     - BSD-3-Clause
   categories:
     - programming.devel
+- repo: stalix
+  srcname: lib/srtp/2
+  binname: lib/srtp/2
+  visiblename: lib/srtp/2
+  version: 2.8.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+- repo: stalix_dev
+  srcname: lib/srtp/2
+  binname: lib/srtp/2
+  visiblename: lib/srtp/2
+  version: 2.8.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+- repo: starkos
+  subrepo: main
+  srcname: libsrtp
+  visiblename: libsrtp
+  version: 2.8.1
+  origversion: 2.8.1-1
+  status: newest
+  summary: Library for SRTP (Secure Realtime Transport Protocol)
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: libsrtp
   visiblename: libsrtp
