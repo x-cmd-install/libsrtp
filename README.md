@@ -14,12 +14,12 @@ x install libsrtp
 
 ## Code insight
 
-Total: **28,680** lines of code across **108** files in the top 5 languages.
+Total: **30,196** lines of code across **108** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 22,683 | 6,763 | 4,311 | 53 |
-| CHeader | 2,286 | 3,205 | 767 | 38 |
+| C | 23,299 | 6,788 | 4,395 | 53 |
+| CHeader | 3,182 | 3,463 | 981 | 38 |
 | Css | 1,216 | 22 | 241 | 1 |
 | CMake | 683 | 26 | 107 | 9 |
 | Autoconf | 648 | 1,659 | 660 | 7 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.8.1` (2026-09-21)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-13
 
 ## Popularity
 
-- **Stars**: 1,405 · **Forks**: 530 · **Open issues**: 303 · **Contributors**: 92
+- **Stars**: 1,405 · **Forks**: 530 · **Open issues**: 303 · **Contributors**: 93
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 450 · **Open PRs**: 5 · **Closed issues**: 288 · **Open issues**: 15 · **Commits**: 1846
+- **Releases**: 18 · **Merged PRs**: 453 · **Open PRs**: 2 · **Closed issues**: 291 · **Open issues**: 12 · **Commits**: 1854
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 11 | 2 | 0 | 0 | 11 |
-| last60d | 2026-09-14 | 1 | 13 | 2 | 1 | 0 | 13 |
-| 90d | 2026-08-15 | 1 | 16 | 2 | 2 | 0 | 19 |
-| last180d | 2026-05-17 | 1 | 22 | 2 | 4 | 1 | 27 |
-| 360d | 2025-11-18 | 2 | 47 | 2 | 10 | 2 | 69 |
-| last720d | 2024-11-23 | 3 | 74 | 3 | 24 | 6 | 164 |
+| 30d | 2026-10-15 | 0 | 14 | 0 | 0 | 0 | 16 |
+| last60d | 2026-09-15 | 1 | 16 | 0 | 1 | 0 | 18 |
+| 90d | 2026-08-16 | 1 | 19 | 0 | 2 | 0 | 24 |
+| last180d | 2026-05-18 | 1 | 25 | 0 | 4 | 1 | 32 |
+| 360d | 2025-11-19 | 2 | 50 | 0 | 11 | 1 | 74 |
+| last720d | 2024-11-24 | 3 | 77 | 1 | 26 | 4 | 172 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T07:15:39Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T07:10:16Z._
