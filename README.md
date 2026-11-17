@@ -46,40 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,406 · **Forks**: 533 · **Open issues**: 303 · **Contributors**: 93
+- **Stars**: 1,406 · **Forks**: 532 · **Open issues**: 303 · **Contributors**: 93
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 453 · **Open PRs**: 4 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
+- **Releases**: 18 · **Merged PRs**: 455 · **Open PRs**: 5 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 13 | 2 | 0 | 0 | 13 |
-| last60d | 2026-09-17 | 1 | 16 | 2 | 1 | 0 | 18 |
-| 90d | 2026-08-18 | 1 | 19 | 2 | 2 | 0 | 23 |
-| last180d | 2026-05-20 | 1 | 25 | 2 | 4 | 1 | 32 |
-| 360d | 2025-11-21 | 2 | 50 | 2 | 11 | 1 | 72 |
-| last720d | 2024-11-26 | 3 | 76 | 3 | 26 | 4 | 172 |
-
-## Distribution status
-
-Reported by **186** distros on [repology.org](https://repology.org/project/libsrtp). **41** are ✅ on the latest upstream release, **126** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.8.0` | ⚠️ outdated |
-| Debian 14 | `2.8.0` | ⚠️ outdated |
-| Debian 13 | `2.7.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.7.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.5.0` | ⚠️ outdated |
-| Arch | `2.8.1` | ✅ latest |
-| Fedora rawhide | `2.8.1` | ✅ latest |
-| Nix unstable | `2.8.1` | ✅ latest |
-| Void | `2.8.1` | ✅ latest |
-| Alpine edge | `2.8.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.8.1` | ✅ latest |
+| 30d | 2026-10-18 | 0 | 15 | 3 | 0 | 0 | 13 |
+| last60d | 2026-09-18 | 1 | 18 | 3 | 1 | 0 | 18 |
+| 90d | 2026-08-19 | 1 | 21 | 3 | 2 | 0 | 23 |
+| last180d | 2026-05-21 | 1 | 26 | 3 | 4 | 1 | 32 |
+| 360d | 2025-11-22 | 2 | 52 | 3 | 11 | 1 | 72 |
+| last720d | 2024-11-27 | 3 | 78 | 4 | 26 | 4 | 171 |
 
 ## Improve this data
 
@@ -90,4 +72,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:13:47Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:24:35Z._
