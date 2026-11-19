@@ -26,13 +26,13 @@ Total: **30,196** lines of code across **108** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.2 / 10**
+Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (3/10) — Found 5/13 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -50,18 +50,36 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 455 · **Open PRs**: 5 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
+- **Releases**: 18 · **Merged PRs**: 455 · **Open PRs**: 7 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 15 | 3 | 0 | 0 | 13 |
-| last60d | 2026-09-18 | 1 | 18 | 3 | 1 | 0 | 18 |
-| 90d | 2026-08-19 | 1 | 21 | 3 | 2 | 0 | 23 |
-| last180d | 2026-05-21 | 1 | 26 | 3 | 4 | 1 | 32 |
-| 360d | 2025-11-22 | 2 | 52 | 3 | 11 | 1 | 72 |
-| last720d | 2024-11-27 | 3 | 78 | 4 | 26 | 4 | 171 |
+| 30d | 2026-10-20 | 0 | 11 | 5 | 0 | 0 | 13 |
+| last60d | 2026-09-20 | 1 | 18 | 5 | 1 | 0 | 18 |
+| 90d | 2026-08-21 | 1 | 21 | 5 | 2 | 0 | 23 |
+| last180d | 2026-05-23 | 1 | 26 | 5 | 3 | 1 | 32 |
+| 360d | 2025-11-24 | 2 | 51 | 5 | 11 | 1 | 72 |
+| last720d | 2024-11-29 | 3 | 77 | 6 | 26 | 4 | 170 |
+
+## Distribution status
+
+Reported by **187** distros on [repology.org](https://repology.org/project/libsrtp). **17** are ✅ on the latest upstream release, **151** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.8.0` | ⚠️ outdated |
+| Debian 14 | `2.8.0` | ⚠️ outdated |
+| Debian 13 | `2.7.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.7.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.5.0` | ⚠️ outdated |
+| Arch | `2.8.2` | ✅ latest |
+| Fedora rawhide | `2.8.1` | ⚠️ outdated |
+| Nix unstable | `2.8.1` | ⚠️ outdated |
+| Void | `2.8.1` | ⚠️ outdated |
+| Alpine edge | `2.8.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.8.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -72,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:24:35Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:28:41Z._

@@ -26,13 +26,13 @@ x install libsrtp
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.2 / 10**
+总评分: **4.8 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (3/10) — Found 5/13 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -50,18 +50,36 @@ x install libsrtp
 
 ## 累计统计
 
-- **发布数**: 18 · **已合并 PR**: 455 · **开放 PR**: 5 · **已关闭 issue**: 292 · **开放 issue**: 11 · **提交数**: 1854
+- **发布数**: 18 · **已合并 PR**: 455 · **开放 PR**: 7 · **已关闭 issue**: 292 · **开放 issue**: 11 · **提交数**: 1854
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 15 | 3 | 0 | 0 | 13 |
-| last60d | 2026-09-18 | 1 | 18 | 3 | 1 | 0 | 18 |
-| 90d | 2026-08-19 | 1 | 21 | 3 | 2 | 0 | 23 |
-| last180d | 2026-05-21 | 1 | 26 | 3 | 4 | 1 | 32 |
-| 360d | 2025-11-22 | 2 | 52 | 3 | 11 | 1 | 72 |
-| last720d | 2024-11-27 | 3 | 78 | 4 | 26 | 4 | 171 |
+| 30d | 2026-10-20 | 0 | 11 | 5 | 0 | 0 | 13 |
+| last60d | 2026-09-20 | 1 | 18 | 5 | 1 | 0 | 18 |
+| 90d | 2026-08-21 | 1 | 21 | 5 | 2 | 0 | 23 |
+| last180d | 2026-05-23 | 1 | 26 | 5 | 3 | 1 | 32 |
+| 360d | 2025-11-24 | 2 | 51 | 5 | 11 | 1 | 72 |
+| last720d | 2024-11-29 | 3 | 77 | 6 | 26 | 4 | 170 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/libsrtp) 上共有 **187** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**151** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.8.0` | ⚠️ outdated |
+| Debian 14 | `2.8.0` | ⚠️ outdated |
+| Debian 13 | `2.7.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.7.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.5.0` | ⚠️ outdated |
+| Arch | `2.8.2` | ✅ latest |
+| Fedora rawhide | `2.8.1` | ⚠️ outdated |
+| Nix unstable | `2.8.1` | ⚠️ outdated |
+| Void | `2.8.1` | ⚠️ outdated |
+| Alpine edge | `2.8.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.8.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -72,4 +90,4 @@ libsrtp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:24:36Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T09:28:41Z._
