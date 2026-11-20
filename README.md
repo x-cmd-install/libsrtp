@@ -50,22 +50,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 455 · **Open PRs**: 7 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
+- **Releases**: 18 · **Merged PRs**: 455 · **Open PRs**: 8 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 11 | 5 | 0 | 0 | 13 |
-| last60d | 2026-09-20 | 1 | 18 | 5 | 1 | 0 | 18 |
-| 90d | 2026-08-21 | 1 | 21 | 5 | 2 | 0 | 23 |
-| last180d | 2026-05-23 | 1 | 26 | 5 | 3 | 1 | 32 |
-| 360d | 2025-11-24 | 2 | 51 | 5 | 11 | 1 | 72 |
-| last720d | 2024-11-29 | 3 | 77 | 6 | 26 | 4 | 170 |
+| 30d | 2026-10-21 | 0 | 11 | 6 | 0 | 0 | 13 |
+| last60d | 2026-09-21 | 1 | 18 | 6 | 1 | 0 | 18 |
+| 90d | 2026-08-22 | 1 | 21 | 6 | 2 | 0 | 23 |
+| last180d | 2026-05-24 | 1 | 26 | 6 | 3 | 1 | 32 |
+| 360d | 2025-11-25 | 2 | 51 | 6 | 11 | 1 | 72 |
+| last720d | 2024-11-30 | 3 | 77 | 7 | 26 | 4 | 168 |
 
 ## Distribution status
 
-Reported by **187** distros on [repology.org](https://repology.org/project/libsrtp). **17** are ✅ on the latest upstream release, **151** are ⚠️ on an older version.
+Reported by **187** distros on [repology.org](https://repology.org/project/libsrtp). **19** are ✅ on the latest upstream release, **149** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T09:28:41Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T09:14:20Z._
