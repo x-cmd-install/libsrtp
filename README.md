@@ -46,26 +46,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,406 · **Forks**: 532 · **Open issues**: 303 · **Contributors**: 93
+- **Stars**: 1,406 · **Forks**: 533 · **Open issues**: 303 · **Contributors**: 93
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 455 · **Open PRs**: 9 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
+- **Releases**: 18 · **Merged PRs**: 455 · **Open PRs**: 11 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1854
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 11 | 7 | 0 | 0 | 13 |
-| last60d | 2026-09-22 | 0 | 18 | 7 | 1 | 0 | 18 |
-| 90d | 2026-08-23 | 1 | 21 | 7 | 2 | 0 | 23 |
-| last180d | 2026-05-25 | 1 | 26 | 7 | 3 | 1 | 32 |
-| 360d | 2025-11-26 | 2 | 51 | 7 | 11 | 1 | 72 |
-| last720d | 2024-12-01 | 3 | 77 | 8 | 26 | 4 | 168 |
+| 30d | 2026-10-23 | 0 | 11 | 9 | 0 | 0 | 13 |
+| last60d | 2026-09-23 | 0 | 18 | 9 | 1 | 0 | 18 |
+| 90d | 2026-08-24 | 1 | 21 | 9 | 2 | 0 | 23 |
+| last180d | 2026-05-26 | 1 | 26 | 9 | 3 | 1 | 32 |
+| 360d | 2025-11-27 | 2 | 51 | 9 | 11 | 1 | 72 |
+| last720d | 2024-12-02 | 3 | 77 | 10 | 26 | 4 | 168 |
 
 ## Distribution status
 
-Reported by **186** distros on [repology.org](https://repology.org/project/libsrtp). **19** are ✅ on the latest upstream release, **148** are ⚠️ on an older version.
+Reported by **186** distros on [repology.org](https://repology.org/project/libsrtp). **20** are ✅ on the latest upstream release, **147** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:38:07Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:47:21Z._
