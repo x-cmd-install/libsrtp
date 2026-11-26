@@ -14,12 +14,12 @@ x install libsrtp
 
 ## Code insight
 
-Total: **30,198** lines of code across **108** files in the top 5 languages.
+Total: **30,228** lines of code across **108** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 23,301 | 6,793 | 4,396 | 53 |
-| CHeader | 3,182 | 3,463 | 981 | 38 |
+| C | 23,331 | 6,804 | 4,406 | 53 |
+| CHeader | 3,182 | 3,465 | 981 | 38 |
 | Css | 1,216 | 22 | 241 | 1 |
 | CMake | 683 | 26 | 107 | 9 |
 | Autoconf | 648 | 1,659 | 660 | 7 |
@@ -46,40 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,407 · **Forks**: 534 · **Open issues**: 303 · **Contributors**: 95
+- **Stars**: 1,406 · **Forks**: 534 · **Open issues**: 303 · **Contributors**: 95
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 457 · **Open PRs**: 12 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1858
+- **Releases**: 18 · **Merged PRs**: 458 · **Open PRs**: 11 · **Closed issues**: 292 · **Open issues**: 11 · **Commits**: 1860
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 13 | 10 | 0 | 0 | 15 |
-| last60d | 2026-09-26 | 0 | 20 | 10 | 1 | 0 | 20 |
-| 90d | 2026-08-27 | 1 | 23 | 10 | 2 | 0 | 24 |
-| last180d | 2026-05-29 | 1 | 28 | 10 | 3 | 1 | 34 |
-| 360d | 2025-11-30 | 2 | 53 | 10 | 11 | 1 | 73 |
-| last720d | 2024-12-05 | 3 | 79 | 11 | 26 | 4 | 172 |
-
-## Distribution status
-
-Reported by **185** distros on [repology.org](https://repology.org/project/libsrtp). **20** are ✅ on the latest upstream release, **145** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.8.0` | ⚠️ outdated |
-| Debian 14 | `2.8.0` | ⚠️ outdated |
-| Debian 13 | `2.7.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.7.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.5.0` | ⚠️ outdated |
-| Arch | `2.8.2` | ✅ latest |
-| Fedora rawhide | `2.8.1` | ⚠️ outdated |
-| Nix unstable | `2.8.1` | ⚠️ outdated |
-| Void | `2.8.1` | ⚠️ outdated |
-| Alpine edge | `2.8.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.8.1` | ⚠️ outdated |
+| 30d | 2026-10-27 | 0 | 14 | 9 | 0 | 0 | 16 |
+| last60d | 2026-09-27 | 0 | 21 | 9 | 1 | 0 | 21 |
+| 90d | 2026-08-28 | 1 | 24 | 9 | 2 | 0 | 25 |
+| last180d | 2026-05-30 | 1 | 29 | 9 | 3 | 1 | 35 |
+| 360d | 2025-12-01 | 2 | 54 | 9 | 11 | 1 | 74 |
+| last720d | 2024-12-06 | 3 | 78 | 10 | 26 | 4 | 173 |
 
 ## Improve this data
 
@@ -90,4 +72,4 @@ Install metadata for libsrtp lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T09:17:13Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T09:29:57Z._
